@@ -1,0 +1,32 @@
+p
+{
+ background-color: rgb(252, 201, 247);
+ color: rgb(255, 60, 236);
+ font-family: arial;
+ font-size: 22pt;
+}
+
+p.pastel
+{
+ color: rgb(252, 201, 247);
+ background-color: rgb(178, 119, 255);
+}
+
+body
+{
+ background-color: rgb(213, 202, 255);
+ background-image: url(5.jpg);
+ background-size: 60%;
+ background-repeat: no-repeat;
+}
+
+a
+{
+ background-color: rgb(255, 193, 250);
+ color: rgb(177, 109, 255);
+}
+a:hover
+{
+ background-color: rgb(177, 109, 255);
+ color: rgb(255, 193, 250);
+}
