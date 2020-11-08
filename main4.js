@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded",() => {
     var tag = document.getElementById("pastel");
     var wbord = document.getElementById("myDiv");
     document.getElementById("myDiv").style.border = "thick solid lavender";
+    // document.getElementById("myDIV").style.width = "100";
 
 
     document.querySelector("#colorborder").addEventListener("click",(e) =>
@@ -29,6 +30,6 @@ document.addEventListener("DOMContentLoaded",() => {
     document.querySelector("#wbg").addEventListener("click",(e) =>
     {
         console.log('input2', input2.value);
-        wbord.style.background = input2.value;
+        wbord.style.width = input2.value;
     });
 });
